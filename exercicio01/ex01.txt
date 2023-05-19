@@ -1,0 +1,11 @@
+- Quais são as entidades?
+  R: Cliente, Tipo e Categoria; 
+
+-Quais são os atributos?
+  R: id, valor, atualizado_em, cadastrado_em;
+
+-Qual é a chave primária?
+  R: id;
+
+-Qual é a chave Estrangeira?
+  R: cliente_id, tipo_id, categoria_id;
