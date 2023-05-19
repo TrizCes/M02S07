@@ -1,0 +1,20 @@
+CREATE TABLE Cargos 
+( 
+ id_cargo INT PRIMARY KEY,  
+ nome_cargo VARCHAR(n) NOT NULL,  
+); 
+
+CREATE TABLE Empregados 
+( 
+ id_emp INT PRIMARY KEY,  
+ nome_emp VARCHAR(n) NOT NULL,  
+ endereco VARCHAR(n) NOT NULL,  
+ idade INT NOT NULL,  
+); 
+
+CREATE TABLE Gestores 
+( 
+ id_gestor INT PRIMARY KEY,  
+ nome_gestor VARCHAR(n) NOT NULL,  
+ setor INT NOT NULL,  
+); 
